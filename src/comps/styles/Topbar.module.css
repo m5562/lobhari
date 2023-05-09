@@ -1,0 +1,25 @@
+.topbar {
+  border-bottom: var(--border);
+  height: 3.5rem;
+  padding: 0 1rem;
+}
+.topbar > div {
+  gap: 0.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.topbar input[type="search"] {
+  flex-grow: 1;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+textarea {
+  min-height: 2rem;
+  background: transparent;
+  border: var(--border);
+}
