@@ -119,9 +119,12 @@ video {
 
 .product-card-holder {
   display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 .product-card {
   display: flex;
+  /* background-color: red; */
 }
 
 [hidden] {

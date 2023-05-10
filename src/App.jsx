@@ -8,7 +8,16 @@ const App = () => {
       <div className="content">
         <div className="product-card-holder">
           <div className="product-card">
-            <img src="https://picsum.photos/200/300" alt="product" />
+            <img src="https://picsum.photos/200/300?random=1" alt="product" />
+          </div>
+          <div className="product-card">
+            <img src="https://picsum.photos/200/300?random=2" alt="product" />
+          </div>
+          <div className="product-card">
+            <img src="https://picsum.photos/200/300?random=3" alt="product" />
+          </div>
+          <div className="product-card">
+            <img src="https://picsum.photos/200/300?random=4" alt="product" />
           </div>
         </div>
       </div>
